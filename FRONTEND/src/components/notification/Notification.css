@@ -1,0 +1,97 @@
+@import url('https://unpkg.com/@csstools/normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Lora', serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+
+.notification{
+    width: 65vw;
+    height: 100vh;
+    background-color:#fff6ec;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+.NotElement{
+    width: 60%;
+    height: 10%;
+    background-color: #838996;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px;
+}
+.NotElement >div > img{
+    height: 100%;
+    width: auto;
+    margin-right: 25px;
+}
+.NotElement >div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    height: 100%;
+}
+.NotElement >div> button{
+    height: 60%;
+    padding: 4px 10px;
+    background-color: pink;
+    border: none;
+    border-radius: 8px;
+}
+.notf_page{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+
+}
+.notfi_side{
+  width: 35vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:  #838996;
+}
+.notfi_side > svg {
+  height: 25vw;
+  width: 25vw;
+  border-radius: 25vw;
+}
+
+.nothead {
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #838996;
+}
+
+.nothead > span{
+  background-color: pink;
+  padding: 10px 20px;
+  border-radius: 10px;
+}

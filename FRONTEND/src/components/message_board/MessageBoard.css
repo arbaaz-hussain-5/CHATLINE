@@ -1,0 +1,158 @@
+@import url('https://unpkg.com/@csstools/normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Lora', serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+
+.message_board {
+    width: 75vw;
+    height: 100vh;
+    background-color: #fff6ec;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search_users {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_users>input {
+    height: 80%;
+    width: 90%;
+}
+
+.chat_messages {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 100%;
+    overflow: auto;
+}
+
+.Write_message {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+}
+
+.Write_message>input {
+    width: 90%;
+    height: 70%;
+    border-radius: 9vh;
+
+}
+
+.Write_message>button {
+    height: 70%;
+    padding: 7px;
+    background-color:black;
+    color: white;
+
+}
+
+.chat_messages {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.send_message_incomming {
+    padding: 7px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+
+}
+
+
+.send_message_outgoing {
+    padding: 7px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+
+
+
+.send_message_incomming>div {
+    padding: 7px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    max-width: 45%;
+    word-wrap: break-word;
+}
+
+.send_message_outgoing>div {
+    padding: 7px;
+    max-width: 45%;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+
+
+}
+
+.type_message {}
+
+.chat_not_bar {
+    height: 9%;
+    width: 99%;
+    background-color: pink;
+    display: flex;
+    padding: 0px 10px;
+    border-radius: 9vh;
+}
+
+.tpro {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tpro>img {
+    height: 90%;
+    width: auto;
+    border-radius: 60px;
+}
+.mbsvg{
+    width: 32vw;
+    height: 32vw;
+}
+.msgspan{
+    font-size: 30px;
+    background-color: pink;
+    padding: 10px 20px;
+    border-radius: 35px;
+}

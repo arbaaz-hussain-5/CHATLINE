@@ -1,0 +1,68 @@
+@import url('https://unpkg.com/@csstools/normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Lora', serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+
+.search_contact{
+    width: 40vw;
+    height: 70vh;
+    background-color:rgb(255, 255, 255);
+    position: absolute;
+    left:30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.serch_cont{
+    width: 60%;
+    height: 12%;
+    background-color: #838996;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+
+
+}
+.serch_cont > img{
+    height: 100%;
+    width: auto;
+}
+.serhead {
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #838996;
+}
+
+.serhead > span{
+  background-color: pink;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
