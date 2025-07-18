@@ -23,7 +23,7 @@ export default function runServer() {
 
   app.use(
     cors({
-      origin: process.env.CLIENT,
+      origin: "*",
       credentials: true,
     })
   );
